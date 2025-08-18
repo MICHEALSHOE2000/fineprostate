@@ -173,6 +173,28 @@ select option[value="3-bottles"] {
 
     /* Live ticker badge */
     .ticker{display:inline-flex; align-items:center; gap:8px; font-weight:700}
+    /* Prevent horizontal scroll */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Make sure all images behave */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Specific fix for hero / before-after images */
+.hero .card img,
+.transformation img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
   </style>
 </head>
 <body>
@@ -806,4 +828,5 @@ document.getElementById("send-comment").addEventListener("click", function(){
 
 </body>
 </html>
+
 
