@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fix My Prostate Today – Nigeria</title>
+  <meta name="description" content="A natural, non‑surgical path many Nigerian men use to sleep through the night, urinate freely, and feel like themselves again."/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#ffffff; 
+      --ink:#0f172a; 
+      --muted:#475569; 
+      --brand:#059669; /* emerald-600 */
+      --brand-700:#047857; 
+      --brand-50:#ecfdf5;
+      --warn:#ef4444; /* red-500 */
+      --card:#f8fafc; /* slate-50 */
+      --shadow:0 10px 30px rgba(2,6,23,.08);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0; padding:0; font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--ink); background:var(--bg);}
+    a{color:inherit}
+    img{max-width:100%; display:block}
+
+    /* Utility */
+    .container{width:min(1150px, 92%); margin:auto}
+    .grid{display:grid; gap:24px}
+    .btn{display:inline-flex; align-items:center; justify-content:center; gap:.6rem; background:var(--brand); color:#fff; padding:16px 22px; border-radius:999px; text-decoration:none; font-weight:700; box-shadow:var(--shadow);}
+    .btn:hover{background:var(--brand-700)}
+    .badge{display:inline-block; padding:6px 12px; border-radius:999px; font-size:.85rem; background:var(--brand-50); color:var(--brand-700); font-weight:600}
+    .card{background:#fff; border-radius:var(--radius); box-shadow:var(--shadow);}
+    .muted{color:var(--muted)}
+    .center{text-align:center}
+    .section{padding:64px 0}
+    @media (max-width: 640px){ .section{padding:44px 0} }
+
+    /* Sticky Header CTA */
+    .stickybar{position:sticky; top:0; z-index:50; background:#fff; border-bottom:1px solid #e2e8f0;}
+    .stickybar .row{display:flex; align-items:center; justify-content:space-between; gap:12px; padding:10px 0}
+    .stickybar .logo{display:flex; align-items:center; gap:10px; font-weight:800}
+    .stickybar .logo i{width:28px; height:28px; border-radius:8px; background:var(--brand); display:inline-block}
+
+    /* Hero */
+    .hero{background:linear-gradient(180deg, var(--brand-50), #fff 50%);}
+    .hero .wrap{display:grid; grid-template-columns:1.2fr .8fr; gap:28px; align-items:center}
+    .hero h1{font-size:clamp(28px, 3.2vw, 46px); line-height:1.15; margin:10px 0 14px}
+    .hero p{font-size:clamp(15px, 2vw, 19px)}
+    .hero .pill{display:inline-block; background:#fff; border:1px solid #e2e8f0; padding:10px 14px; border-radius:999px; font-weight:600}
+    .hero .evidence{display:flex; gap:12px; flex-wrap:wrap; margin-top:14px}
+
+    /* Problem / Story */
+    .story{background:var(--card)}
+    .story p{font-size:1.05rem;}
+
+    /* Discovery */
+    .discovery .cols{display:grid; grid-template-columns:1fr 1fr; gap:24px}
+    @media (max-width: 900px){
+      .hero .wrap{grid-template-columns:1fr}
+      .discovery .cols{grid-template-columns:1fr}
+    }
+
+    /* Bullets */
+    .bullets{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
+    @media (max-width: 900px){ .bullets{grid-template-columns:1fr} }
+    .bullet{padding:18px; border:1px solid #e2e8f0; border-radius:16px; background:#fff}
+
+    /* Testimonials */
+    /* Testimonials */
+.slider {
+  position: relative;
+  overflow: hidden;   /* 👈 important: only show one slide at a time */
+}
+
+.slides {
+  display: flex;
+  transition: transform .5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;     /* Each slide = full width of container */
+}
+
+.tcard {
+  padding: 22px;
+}
+
+.tmeta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.dotnav {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: var(--brand);
+}
+
+
+    /* Warning & Counter */
+    .warning{background:#fff1f2; border:1px solid #fecdd3; color:#7f1d1d; padding:18px; border-radius:16px}
+    .counterbox{background:#ecfdf5; border:1px solid #d1fae5; color:#065f46; padding:18px; border-radius:16px}
+    .timer{font-size:1.6rem; font-weight:800}
+
+    /* Offer */
+    .offer{background:linear-gradient(180deg, #fff, var(--brand-50));}
+    .offer h2{font-size:clamp(24px,2.8vw,36px)}
+
+    /* Order Section */
+    .order{padding:28px;}
+    .order form{display:grid; gap:12px}
+    .order input, .order select, .order textarea{width:100%; padding:14px; border:1px solid #e5e7eb; border-radius:12px; font:inherit}
+    .order small{color:var(--muted)}
+
+    /* FAQ */
+    .faq details{background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:14px 16px}
+    .faq details+details{margin-top:12px}
+    .faq summary{cursor:pointer; font-weight:700}
+
+    /* Footer */
+    footer{padding:40px 0; color:#64748b; font-size:.9rem}
+
+    /* Floating WhatsApp */
+    .whatsapp{position:fixed; right:18px; bottom:18px; z-index:60}
+    .whatsapp a{display:flex; align-items:center; gap:10px; background:#25D366; color:#fff; padding:14px 16px; border-radius:999px; text-decoration:none; box-shadow:var(--shadow); font-weight:700}
+
+    /* Live ticker badge */
+    .ticker{display:inline-flex; align-items:center; gap:8px; font-weight:700}
+  </style>
+</head>
+<body>
+  <!-- Sticky CTA Bar -->
+  <div class="stickybar">
+    <div class="container row">
+      <div class="row">
+        <div class="logo"><i></i> Prostate Relief NG</div>
+        <span class="badge">100% Herbal • Nigeria</span>
+      </div>
+      <a href="#order" class="btn">Order Now – Fix My Prostate Today</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero section">
+    <div class="container wrap">
+      <div>
+        <span class="pill">For Men in Nigeria (Age 40+)</span>
+        <h1>💥 I Was Tired of Living Like This… Until I Found a Forgotten Discovery That Saved My Prostate</h1>
+        <p class="muted">How thousands of Nigerian men are finally sleeping through the night, urinating freely, and getting their life back without surgery or side effects.</p>
+        <div class="evidence muted">
+          <span>🇳🇬 Lagos • Available in all part of NIgeria</span>
+          <span class="ticker">🔵 <span id="liveViewers">17</span> people are viewing this offer right now</span>
+        </div>
+        <div style="margin-top:18px">
+          <a href="#order" class="btn">👉 Order Now – Fix My Prostate Today</a>
+        </div>
+      </div>
+      <div>
+        <div class="card" style="padding:14px">
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop" alt="Calm medical background placeholder" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PROBLEM / STORY -->
+  <section class="story section">
+    <div class="container">
+      <span class="badge">The Problem</span>
+      <h2 style="margin:10px 0 4px">Sleepless Nights. Embarrassment. Fear.</h2>
+      <p><strong>Does this sound familiar?</strong> “I was tired of living like this…”
+
+        For years, my nights were torture.
+        I’d get up 6, 7, even 10 times to run to the bathroom.
+        Each time, my wife would wake up too. She never complained… but her quiet sighs cut me deeper than the pain in my bladder.
+        
+        I felt less of a man.
+        Weak stream.
+        Unbearable pressure.
+        Embarrassing moments.
+        Even intimacy with my wife became impossible.
+        .…</p>
+      <p><strong>"I tried everything—herbs, diets, medications. Nothing worked.</strong> The side effects only made me weaker. Surgery terrified me. I thought my life was over…”</p>
+      <p><strong> Then I found something shocking..</strong></p>
+    </div>
+  </section>
+
+  <!-- DISCOVERY -->
+  <section class="discovery section">
+    <div class="container">
+      <span class="badge">The Discovery</span>
+      <h2 style="margin:10px 0 14px">The Shocking Truth About What Was Causing My Prostate Problem</h2>
+      <div class="cols">
+        <div class="card" style="padding:16px">
+          <img src="https://images.unsplash.com/photo-1580281657527-47e6ba6b21a8?q=80&w=1200&auto=format&fit=crop" alt="Medical research placeholder"/>
+        </div>
+        <div>
+            <p>One day, while searching for answers, I discovered something shocking</p>
+          <p><strong>Doctors in Japan discovered that a toxic chemical hiding in plastics—BPA— (Bisphenol A)—found in everyday plastics like water bottles, food containers, and disposable cups was linked directly to prostate enlargement (BPH) and even prostate cancer.</strong></p>
+          <p></p> <strong>This toxic chemical acts like a hormone inside the body, confusing the prostate cells and making them grow uncontrollably. Over time, it clogs up the prostate like cement, squeezing the urinary tract and making urination painful and weak.</strong></p>
+        </div>
+              <section class="section" style="background:var(--card)">
+          <div class="container">
+            <span class="badge">The Solution</span>
+            <h2 style="margin:10px 0 14px">Why Japanese Men Don’t Suffer Like We Do</h2>
+            <p>Researchers noticed something surprising: <strong>men in Japan rarely suffer prostate problems</strong>, even though they also use plastics. Why?</p>
+            <p>It turned out Japanese men eat special foods rich in a powerful nutrient called <strong>Sulforaphane</strong>.</p>
+            <p>This natural compound <strong>destroys BPA and other toxins</strong> inside the prostate, clearing the buildup before it can do damage. Once these toxins are removed, the prostate can shrink back to normal size—restoring strong, healthy urination.</p>
+            <p>Even better, Sulforaphane has been shown to reduce inflammation, restore prostate function, and protect against future enlargement.</p>
+            <p>Once these toxins were cleared, <strong>my prostate shrank naturally</strong>. My urine flow came back like the <strong>force of a fire hose</strong>.</p>
+            <p>And when combined with other natural ingredients like:</p>
+            <div class="grid" style="margin-top:24px; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:18px">
+              <div class="bullet">🌿 <strong>Saw Palmetto Extract</strong><br/>Supports normal prostate size</div>
+              <div class="bullet">🍵 <strong>Green Tea Catechins</strong><br/>Detox & anti-inflammatory</div>
+              <div class="bullet">⚡ <strong>Zinc + Selenium</strong><br/>Essential minerals for male health</div>
+              <div class="bullet">🌱 <strong>Graviola & African Pygeum</strong><br/>Protect against infection & swelling</div>
+            </div>
+        
+            <!-- ✅ Product image here -->
+    <div class="center" style="margin-top:30px">
+        <img src="your-product-image.jpg" alt="Prostate Relief NG – Sulforaphane Combination Formula" style="max-width:280px; margin:auto; border-radius:14px; box-shadow:var(--shadow)">
+        <p class="muted" style="margin-top:10px"><strong>Prostate Relief NG</strong> – Sulforaphane + Herbal Blend</p>
+      </div>
+  
+      <div class="center" style="margin-top:26px">
+        <a href="#order" class="btn">👉 Try This Natural Prostate Solution</a>
+      </div>
+    </div>
+        </section>
+    <!-- TRANSFORMATION -->
+<section class="section">
+    <div class="container">
+      <span class="badge">My Transformation</span>
+      <h2 style="margin:10px 0 14px">How My Life Changed After Discovering This Method</h2>
+      
+      <div class="grid transformation" style="grid-template-columns:1fr 1fr; gap:28px; align-items:center">
+        
+        <!-- Story -->
+        <div>
+          <p><strong>When I first heard about this method, I was skeptical.</strong> I had already wasted money on useless supplements that gave me nothing but disappointment.</p>
+          <p>But within a few short weeks, everything started to change:</p>
+          <ul style="margin:16px 0; padding-left:18px">
+            <li>✅ My <strong>night bathroom trips</strong> dropped from <strong>7–10 times</strong> to just <strong>once</strong>.</li>
+            <li>✅ My urine flow came back strong—like the <strong>force of a fire hose</strong>.</li>
+            <li>✅ For the first time in years, I felt the relief of <strong>emptying my bladder completely</strong>.</li>
+            <li>✅ My <strong>energy returned</strong>, and even my <strong>sex life became stronger</strong> than before.</li>
+            <li>✅ I finally <strong>slept peacefully through the night</strong>.</li>
+          </ul>
+          <p><em>My wife even told me: “It’s like I got my husband back.”</em></p>
+        </div>
+        
+        <!-- Before & After Image -->
+        <div class="card" style="padding:18px; text-align:center">
+          <img src="before-after-prostate.jpg" 
+               alt="Before and After Prostate Transformation" 
+               style="border-radius:12px; box-shadow:var(--shadow)">
+          <p class="muted" style="margin-top:10px">Test results showed my prostate returned to normal size</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <style>
+    /* Mobile: stack, with image at the bottom */
+    @media (max-width: 900px){
+      .transformation {
+        grid-template-columns:1fr !important;
+      }
+      .transformation .card {
+        order: 2; /* put image AFTER the story */
+      }
+    }
+  </style>
+  
+  
+
+     <!-- Testimonials Slider -->
+<div class="slider card" style="margin-top:22px">
+  <div class="slides" id="slides">
+    <div class="slide">
+      <div class="tcard">
+        <p>“After 3 years of pain in my waist and anus, I was waking up every hour. Two weeks in, I’m sleeping like a baby and my flow is back.”</p>
+        <div class="tmeta">
+          <img src="https://i.pravatar.cc/60?img=12" alt="Isaac avatar" style="border-radius:50%">
+          <div><strong>Isaac, 50</strong><br/><span class="muted">Abuja</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="tcard">
+        <p>“I spent ₦250,000 on different online medicines—no changes. This is the first time I’ve had <strong>real relief</strong> without side effects.”</p>
+        <div class="tmeta">
+          <img src="https://i.pravatar.cc/60?img=22" alt="Collins avatar" style="border-radius:50%">
+          <div><strong>Collins, 56</strong><br/><span class="muted">Lagos</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="tcard">
+        <p>“From <strong>frequent urination</strong> to driving long trips without fear. My wife says ‘thank you’—our <strong>intimacy is back</strong>.”</p>
+        <div class="tmeta">
+          <img src="https://i.pravatar.cc/60?img=31" alt="Shola avatar" style="border-radius:50%">
+          <div><strong>Shola, 61</strong><br/><span class="muted">Port Harcourt</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dotnav" id="dotnav"></div>
+</div>
+
+  <!-- URGENCY -->
+  <section class="section">
+    <div class="container grid" style="grid-template-columns:1fr 1fr">
+      <div class="warning">
+        <h3>⚠️ Why You Must Act Now</h3>
+        <p>Ignoring prostate problems can lead to <strong>kidney damage</strong>, <strong>permanent bladder dysfunction</strong>, <strong>catheters for life</strong>, or even <strong>loss of manhood</strong>.</p>
+      </div>
+      <div class="counterbox">
+        <h3>Good News</h3>
+        <p>“You can help flush out these toxins today—<strong>without drugs, surgery, or side effects</strong>.”</p>
+        <div>Offer ends in <span class="timer" id="countdown">15:00</span></div>
+      </div>
+    </div>
+  </section>
+
+ <!-- OFFER / ORDER -->
+<section id="order" class="offer section">
+  <div class="container">
+    <h2 class="center">It’s Your Turn to Reclaim Your Life</h2>
+    <p class="center muted" style="max-width:850px; margin:8px auto 22px">
+      Thousands of men are free today because they took action. Don’t let another night be stolen from you.
+    </p>
+
+    <!-- Order Form -->
+    <div class="card order">
+      <h3 style="margin-top:0">Place Your Order (Nigeria)</h3>
+      <form action="https://formspree.io/f/your-id" method="POST">
+        
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="tel" name="phone" placeholder="Phone (WhatsApp)" required />
+        <input type="tel" name="alt_phone" placeholder="Alternative Phone Number" required />
+
+        <!-- Package -->
+        <select name="package" required>
+          <option value="">Select Package</option>
+          <option value="1-bottle">1 Bottle – ₦25,000</option>
+          <option value="2-bottles">2 Bottles – ₦45,000</option>
+          <option value="3-bottles">3 Bottles – ₦60,000 ✅ Best Value & Recommended</option>
+        </select>
+
+        <!-- State -->
+        <select name="state" required>
+          <option value="">Select Your State</option>
+          <option>Abia</option><option>Adamawa</option><option>Akwa Ibom</option><option>Anambra</option>
+          <option>Bauchi</option><option>Bayelsa</option><option>Benue</option><option>Borno</option>
+          <option>Cross River</option><option>Delta</option><option>Ebonyi</option><option>Edo</option>
+          <option>Ekiti</option><option>Enugu</option><option>FCT - Abuja</option><option>Gombe</option>
+          <option>Imo</option><option>Jigawa</option><option>Kaduna</option><option>Kano</option>
+          <option>Katsina</option><option>Kebbi</option><option>Kogi</option><option>Kwara</option>
+          <option>Lagos</option><option>Nasarawa</option><option>Niger</option><option>Ogun</option>
+          <option>Ondo</option><option>Osun</option><option>Oyo</option><option>Plateau</option>
+          <option>Rivers</option><option>Sokoto</option><option>Taraba</option><option>Yobe</option>
+          <option>Zamfara</option>
+        </select>
+
+        <input type="text" name="address" placeholder="Delivery Address" required />
+
+        <textarea name="note" rows="3" placeholder="Any note for the rider? (optional)"></textarea>
+
+        <!-- Delivery Time -->
+        <select name="delivery_time" required>
+          <option value="">When do you want delivery?</option>
+          <option>Before 24 Hours</option>
+          <option>Before 48 Hours</option>
+          <option>Before 72 Hours</option>
+        </select>
+
+        <button class="btn" type="submit">👉 Order Now – Fix My Prostate Today</button>
+        <small>Secure ordering • Pay on Delivery Nationwide • 7-Day Satisfaction Promise</small>
+      </form>
+    </div>
+
+    <!-- Trust & Benefits -->
+    <div class="grid" style="margin-top:28px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px">
+      <div class="card" style="padding:18px">
+        <h4 style="margin:0 0 8px">Why Trust Us?</h4>
+        <ul class="muted" style="padding-left:18px; margin:0">
+          <li>✅ Pay on Delivery (Nationwide)</li>
+          <li>✅ Discreet Packaging</li>
+          <li>✅ WhatsApp & Phone Support</li>
+          <li>✅ Fast Delivery (24–72 Hours)</li>
+        </ul>
+      </div>
+      <div class="card" style="padding:18px">
+        <h4 style="margin:0 0 8px">Benefits You’ll Get</h4>
+        <ul class="muted" style="padding-left:18px; margin:0">
+          <li>✅ Sleep through the night without bathroom breaks</li>
+          <li>✅ Strong & confident urine flow</li>
+          <li>✅ Relief from pressure and discomfort</li>
+          <li>✅ Energy, intimacy & confidence restored</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section faq">
+    <div class="container">
+      <h2 class="center">Frequently Asked Questions</h2>
+      <details>
+        <summary>Is this natural and safe?</summary>
+        <p>Yes. It is a <strong>100% herbal approach</strong> that many men find gentle and effective. Always consult your healthcare provider if you’re on medication.</p>
+      </details>
+      <details>
+        <summary>How long before I see results?</summary>
+        <p>Many men notice improvements in <strong>2–4 weeks</strong>, with best results as they continue consistently and follow the included diet tips.</p>
+      </details>
+      <details>
+        <summary>Will this work if I’ve tried other treatments?</summary>
+        <p>Yes—because it addresses the <strong>root cause</strong>: toxin buildup in the prostate. Clearing that path helps restore normal flow.</p>
+      </details>
+      <details>
+        <summary>Do I need surgery?</summary>
+        <p>No. This is a <strong>non‑invasive</strong>, natural wellness method. If you have severe symptoms, please seek medical evaluation.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- FINAL PUSH -->
+  <section class="section">
+    <div class="container center">
+      <h2>Brother, Don’t Suffer in Silence</h2>
+      <p class="muted" style="max-width:820px; margin:8px auto 20px">I was once where you are now. If I hadn’t found this forgotten discovery, I’d still be waking up every hour—tired, humiliated, and broken. <strong>Today, I’m free.</strong> And now it’s your turn.</p>
+      <a href="#order" class="btn">👉 Order Now – Fix My Prostate Today</a>
+    </div>
+  </section>
+
+  <footer class="center">
+    <div class="container">
+      <p>© <span id="year"></span> Prostate Relief NG • All Rights Reserved</p>
+      <p class="muted">This page is for educational and marketing purposes only and is not a substitute for professional medical advice.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp">
+    <a href="https://wa.me/2348012345678?text=Hello!%20I%20want%20to%20fix%20my%20prostate" target="_blank" rel="noopener">💬 Chat With Us on WhatsApp</a>
+  </div>
+
+  <script>
+    // Live viewers ticker (randomized between 12–31 every 8s)
+    const viewersEl = document.getElementById('liveViewers');
+    function randomViewers(){ return Math.floor(Math.random()*20)+12 }
+    function updateViewers(){ viewersEl.textContent = randomViewers() }
+    updateViewers(); setInterval(updateViewers, 8000);
+
+    // Evergreen 15‑minute countdown
+    const countdownEl = document.getElementById('countdown');
+    let end = Date.now() + 15*60*1000; // 15 minutes from load
+    function tick(){
+      const diff = end - Date.now();
+      if (diff <= 0){ end = Date.now() + 15*60*1000 } // restart
+      const m = Math.floor((diff/1000)/60);
+      const s = Math.floor((diff/1000)%60);
+      countdownEl.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+      requestAnimationFrame(tick);
+    }
+    tick();
+
+    // Testimonials slider
+    const slides = document.getElementById('slides');
+    const dotnav = document.getElementById('dotnav');
+    const total = slides.children.length;
+    let idx = 0;
+    function renderDots(){
+      for(let i=0;i<total;i++){
+        const d=document.createElement('div'); d.className='dot'+(i===0?' active':''); d.addEventListener('click', ()=>go(i)); dotnav.appendChild(d)
+      }
+    }
+    function go(n){ idx=n; slides.style.transform=`translateX(-${idx*100}%)`; [...dotnav.children].forEach((d,i)=>d.classList.toggle('active',i===idx)); }
+    renderDots();
+    setInterval(()=>{ idx=(idx+1)%total; go(idx); }, 5000);
+
+    // Smooth scroll for anchor CTAs
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const id=a.getAttribute('href');
+        if(id.length>1){ e.preventDefault(); document.querySelector(id).scrollIntoView({behavior:'smooth', block:'start'}) }
+      })
+    })
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <!-- ✅ Fake Live Purchase Popups -->
+<div id="purchase-popup" class="popup"></div>
+
+<style>
+  .popup {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #fff;
+    color: #111;
+    border-radius: 12px;
+    padding: 14px 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    font-size: 14px;
+    font-weight: 500;
+    display: none;
+    z-index: 9999;
+    animation: fadeInUp 0.6s ease forwards;
+  }
+
+  @keyframes fadeInUp {
+    0% {opacity: 0; transform: translateY(20px);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
+</style>
+
+<script>
+  // Fake data for Nigerian buyers
+  const buyers = [
+    {name: "Tunde", location: "Ibadan", qty: "3 bottles"},
+    {name: "Emeka", location: "Lagos", qty: "1 bottle"},
+    {name: "Usman", location: "Abuja", qty: "2 bottles"},
+    {name: "Kunle", location: "Port Harcourt", qty: "3 bottles"},
+    {name: "Collins", location: "Enugu", qty: "1 bottle"},
+    {name: "Shola", location: "Kano", qty: "2 bottles"},
+    {name: "Ifeanyi", location: "Benin City", qty: "3 bottles"},
+    {name: "Yakubu", location: "Kaduna", qty: "1 bottle"},
+    {name: "Bashir", location: "Ilorin", qty: "2 bottles"},
+    {name: "Adewale", location: "Ogbomoso", qty: "3 bottles"}
+  ];
+
+  function showPopup() {
+    const popup = document.getElementById("purchase-popup");
+    const buyer = buyers[Math.floor(Math.random() * buyers.length)];
+    popup.innerHTML = `<b>${buyer.name}</b> from <b>${buyer.location}</b> just bought <b>${buyer.qty}</b> 🎉`;
+    popup.style.display = "block";
+
+    // Hide after 6s
+    setTimeout(() => {
+      popup.style.display = "none";
+    }, 6000);
+  }
+
+  // Show popup every 15–30 seconds randomly
+  setInterval(() => {
+    showPopup();
+  }, Math.floor(Math.random() * (30000 - 15000 + 1)) + 15000);
+</script>
+
+</body>
+</html>
