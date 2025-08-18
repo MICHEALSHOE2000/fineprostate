@@ -111,6 +111,12 @@
 .dot.active {
   background: var(--brand);
 }
+/* Highlight recommended option in dropdown */
+select option[value="3-bottles"] {
+  font-weight:700;
+  background:#ecfdf5; /* light brand */
+  color:#047857; /* brand-700 */
+}
 
 
     /* Warning & Counter */
@@ -173,7 +179,7 @@
       </div>
       <div>
         <div class="card" style="padding:14px">
-          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop" alt="Calm medical background placeholder" />
+          <img src="img/head.png" alt="Calm background placeholder" />
         </div>
       </div>
     </div>
@@ -208,7 +214,7 @@
       <h2 style="margin:10px 0 14px">The Shocking Truth About What Was Causing My Prostate Problem</h2>
       <div class="cols">
         <div class="card" style="padding:16px">
-          <img src="https://images.unsplash.com/photo-1580281657527-47e6ba6b21a8?q=80&w=1200&auto=format&fit=crop" alt="Medical research placeholder"/>
+          <img src="img/Bpa.jpg" alt=" research placeholder"/>
         </div>
         <div>
             <p>One day, while searching for answers, I discovered something shocking</p>
@@ -234,7 +240,7 @@
         
             <!-- ✅ Product image here -->
     <div class="center" style="margin-top:30px">
-        <img src="your-product-image.jpg" alt="Prostate Relief NG – Sulforaphane Combination Formula" style="max-width:280px; margin:auto; border-radius:14px; box-shadow:var(--shadow)">
+        <img src="img/product.jpg" alt="Prostate Relief NG – Sulforaphane Combination Formula" style="max-width:280px; margin:auto; border-radius:14px; box-shadow:var(--shadow)">
         <p class="muted" style="margin-top:10px"><strong>Prostate Relief NG</strong> – Sulforaphane + Herbal Blend</p>
       </div>
   
@@ -243,6 +249,23 @@
       </div>
     </div>
         </section>
+        <!-- Doctor Credibility -->
+<section class="section">
+  <div class="container grid" style="grid-template-columns:1fr 1fr; gap:28px; align-items:center">
+    <div>
+      <h2 style="margin:10px 0 14px">Doctor-Backed. Inspired by Japanese Research.</h2>
+      <p class="muted">This herbal blend was formulated under the guidance of experienced natural health practitioners, inspired by breakthrough research from Japanese doctors who uncovered the power of <strong>Sulforaphane</strong> for prostate health.</p>
+      <p><strong>Safe. Herbal. Backed by Science.</strong></p>
+    </div>
+    <div class="card" style="padding:16px; text-align:center">
+      <img src="img/dokee.png" 
+           alt="Doctor endorsement placeholder" 
+           style="border-radius:12px; max-width:260px; margin:auto">
+      <p style="margin-top:10px; font-style:italic; font-weight:600">— Dr. Akin, Natural Health Specialist</p>
+    </div>
+  </div>
+</section>
+
     <!-- TRANSFORMATION -->
 <section class="section">
     <div class="container">
@@ -267,7 +290,7 @@
         
         <!-- Before & After Image -->
         <div class="card" style="padding:18px; text-align:center">
-          <img src="before-after-prostate.jpg" 
+          <img src="img/before and after prostate.webp" 
                alt="Before and After Prostate Transformation" 
                style="border-radius:12px; box-shadow:var(--shadow)">
           <p class="muted" style="margin-top:10px">Test results showed my prostate returned to normal size</p>
@@ -298,7 +321,7 @@
       <div class="tcard">
         <p>“After 3 years of pain in my waist and anus, I was waking up every hour. Two weeks in, I’m sleeping like a baby and my flow is back.”</p>
         <div class="tmeta">
-          <img src="https://i.pravatar.cc/60?img=12" alt="Isaac avatar" style="border-radius:50%">
+          <img src="img/Screensho.png" alt="Isaac avatar" style="border-radius:50%" width="20%">
           <div><strong>Isaac, 50</strong><br/><span class="muted">Abuja</span></div>
         </div>
       </div>
@@ -307,7 +330,7 @@
       <div class="tcard">
         <p>“I spent ₦250,000 on different online medicines—no changes. This is the first time I’ve had <strong>real relief</strong> without side effects.”</p>
         <div class="tmeta">
-          <img src="https://i.pravatar.cc/60?img=22" alt="Collins avatar" style="border-radius:50%">
+          <img src="img/Screenshot.png" alt="Collins avatar" style="border-radius:50%" width="20%">
           <div><strong>Collins, 56</strong><br/><span class="muted">Lagos</span></div>
         </div>
       </div>
@@ -362,7 +385,8 @@
           <option value="">Select Package</option>
           <option value="1-bottle">1 Bottle – ₦25,000</option>
           <option value="2-bottles">2 Bottles – ₦45,000</option>
-          <option value="3-bottles">3 Bottles – ₦60,000 ✅ Best Value & Recommended</option>
+          <option value="3-bottles">3 Bottles – ₦60,000 (⭐ Best Value – Recommended)</option>
+
         </select>
 
         <!-- State -->
@@ -396,6 +420,16 @@
         <small>Secure ordering • Pay on Delivery Nationwide • 7-Day Satisfaction Promise</small>
       </form>
     </div>
+<!-- WhatsApp Order Option -->
+<div style="margin-top:16px; text-align:center">
+  <a href="https://wa.me/2348012345678?text=Hello!%20I%20want%20to%20order%20Prostate%20Relief%20NG.%20My%20package%20choice%20is%3A%203%20Bottles%20%E2%80%93%20%E2%82%A660,000" 
+     target="_blank" rel="noopener" 
+     class="btn" 
+     style="background:#25D366">
+     💬 click here to Order on WhatsApp
+  </a>
+  <p class="muted" style="font-size:0.85rem; margin-top:6px">Fast response • Speak directly with our support team</p>
+</div>
 
     <!-- Trust & Benefits -->
     <div class="grid" style="margin-top:28px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px">
@@ -452,6 +486,182 @@
       <a href="#order" class="btn">👉 Order Now – Fix My Prostate Today</a>
     </div>
   </section>
+<!-- COMMENTS SECTION -->
+<section class="comments-section section">
+  <div class="container">
+    <h2 class="center">Leave Your Comments</h2>
+
+    <div class="comment">
+      <img src="img/ab.jpg" alt="Profile picture" class="avatar">
+      <div class="comment-content">
+        <p><strong>Oloye Remilekun</strong> Can anybody vouch for this prostate treatment??</p>
+        <div class="comment-actions">
+          <span>Like</span> · <span>Reply</span> · <span>6 · 1h</span>
+        </div>
+
+        <!-- Nested Reply -->
+        <div class="reply">
+          <img src="img/Screenshot.png" alt="Profile picture" class="avatar">
+          <div class="comment-content">
+            <p><strong>Mahmud Kayode</strong> Yes, I got it for my dad. He was waking up 8 times every night, now he sleeps through and urinates freely. This product works!</p>
+            <img src="img/p.png" alt="Photo proof" class="reply-photo">
+            <div class="comment-actions">
+              <span>Like</span> · <span>Reply</span> · <span>2 · 30 min</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment">
+      <img src="img/abcd.jpg" alt="Profile picture" class="avatar">
+      <div class="comment-content">
+        <p><strong>Samuel Omoigbere</strong> I was almost scheduled for surgery but this gave me relief. My flow is back and no more sleepless nights 🙏</p>
+        <div class="comment-actions">
+          <span>Like</span> · <span>Reply</span> · <span>4 · 51 min</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment">
+      <img src="img/www.png" alt="Profile picture" class="avatar">
+      <div class="comment-content">
+        <p><strong>Onyeka Obodo</strong> I bought mine last month full price and now it’s discounted 😩 but it’s worth it, my energy is back!</p>
+        <div class="comment-actions">
+          <span>Like</span> · <span>Reply</span> · <span>9 · 1h</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment">
+      <img src="img/qqq.png" alt="Profile picture" class="avatar">
+      <div class="comment-content">
+        <p><strong>Adebayo tunde</strong> How long does delivery take?</p>
+        <div class="comment-actions">
+          <span>Like</span> · <span>Reply</span> · <span>7 · 2h</span>
+        </div>
+
+        <!-- Nested Reply -->
+        <div class="reply">
+          <img src="img/t.png" alt="Profile picture" class="avatar">
+          <div class="comment-content">
+            <p><strong>Mama Abbas</strong> Mine arrived in Lagos the next day. They deliver fast 🚚</p>
+            <div class="comment-actions">
+              <span>Like</span> · <span>Reply</span> · <span>2 · 1h</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment">
+      <img src="img/abc.jpg" alt="Profile picture" class="avatar">
+      <div class="comment-content">
+        <p><strong>Chinenye Uzo</strong> My husband’s prostate scan improved after 3 weeks. He can finally drive long distances without bathroom stops.</p>
+        <div class="comment-actions">
+          <span>Like</span> · <span>Reply</span> · <span>11 · 3h</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fake Comment Form -->
+    <div class="write-comment">
+      <img src="img/default-avatar.png" alt="Your Profile" class="avatar">
+      <input type="text" id="comment-input" placeholder="Write a comment..." />
+      <button id="send-comment">Send</button>
+    </div>
+    <div id="comment-toast" class="toast">✅ Comment sent!</div>
+  </div>
+</section>
+
+<style>
+.comments-section {
+  margin-top: 40px;
+}
+.comments-section h2 {
+  margin-bottom: 20px;
+}
+.comment, .reply {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.comment-content {
+  background: #fff;
+  padding: 12px 14px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  max-width: 600px;
+}
+.comment-actions {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.comment-actions span {
+  cursor: pointer;
+  margin-right: 6px;
+}
+.reply {
+  margin-left: 50px;
+}
+.reply-photo {
+  margin-top: 8px;
+  border-radius: 8px;
+  max-width: 220px;
+  box-shadow: var(--shadow);
+}
+.write-comment {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 8px;
+}
+.write-comment input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 18px;
+}
+.write-comment button {
+  background: var(--brand);
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.write-comment button:hover {
+  background: var(--brand-700);
+}
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--brand);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: none;
+}
+</style>
+
+<script>
+// Fake comment send action
+document.getElementById("send-comment").addEventListener("click", function(){
+  const toast = document.getElementById("comment-toast");
+  toast.style.display = "block";
+  setTimeout(()=>{ toast.style.display="none"; }, 2500);
+});
+</script>
 
   <footer class="center">
     <div class="container">
